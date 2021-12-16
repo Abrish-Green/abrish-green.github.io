@@ -1,5 +1,5 @@
 
-!Demo(https://github.com/Abrish-Green/Portfolio/blob/main/src/img/Screenshot%202021-12-15%20at%2020-06-49%20Screenshot.png)
+![Demo]( /src/img/Screenshot 2021-12-15 at 20-06-49 Screenshot.png )
 
 ## Available Scripts
 
