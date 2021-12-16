@@ -107,3 +107,25 @@ body{
   .sidekick:after {content: '\201c';}
   .sidekick cite {font-size: 50%; text-align:center; top:50%}
   .sidekick cite:before {content: ' \2015 '}
+
+  /*********Responsive Design*********/
+
+  @media screen and (max-width:480px) {
+      .i{
+          height:100vh;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+      }
+      .i-right{
+          flex:0;
+          flex-direction:column;
+      }
+      .i-title{
+          margin-top:14em;
+      }
+      .sidekick{
+          font-size:25px;
+      }
+  }

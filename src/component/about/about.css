@@ -140,3 +140,40 @@
     }
     
 }
+
+
+
+@media screen and (max-width:480px){
+    
+    .a-left{
+        flex:0;
+    }
+    .a-left-frame-1{
+        display:none;
+    }
+    .a-left-frame-2{
+        display:none;
+    }
+    .a-right-curve-wrapper{
+        display:flex;
+        flex-direction: row;
+    }
+    .a-right-curve{
+
+        height:80px;
+        width:20px;
+        margin-top:45px;
+        font-size:10px;
+    }
+    .a-description{
+        padding-left:25px;
+        line-height:30px;
+        font-size: 20px;
+        font-weight: 200;
+        align-items: center;
+        justify-content: center;
+    }
+    .a-right-heading{
+        padding-top:1px;
+    }
+}

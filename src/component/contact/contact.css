@@ -98,3 +98,28 @@ button{
     font-weight:500;
     width:60%;
 } 
+
+@media screen and (max-width:480px){
+    
+    .c-title{
+        color: white;
+        font-size:20px;
+    }
+    
+    .c-bg{
+        width:10px;
+    }
+    .c-wrapper{
+        flex-direction:column;
+    }
+    .c-info-item{
+        margin:20px 0;
+        border-bottom: 2px solid orange;
+
+    }
+    input , textarea{
+        padding:10px;
+        border:none;
+        border-bottom: 3px solid orange;
+    }
+}

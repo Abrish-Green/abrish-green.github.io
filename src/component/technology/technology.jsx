@@ -28,17 +28,20 @@ const Technology = ()=>{
     return (
         <div className="tech">
                 <div className="tech-title">
-                    <h2>My Best Technologies</h2> 
-                    <div className="my-technology">
+                    <h2>My Best Technologies</h2>
+                    
+                <div className="card-wrapper">
+                    <div className="my-technology my-technology-left">
                         <TechnologyCard name={Express}/>
                         <TechnologyCard name={Reacts}/>
                         <TechnologyCard name={Laravel} />
                     </div>
-                    <div className="my-technology">
+                    <div className="my-technology my-technology-right">
                         <TechnologyCard name={Html}/>
                         <TechnologyCard name={Mysql}/>
                         <TechnologyCard name={Mongodb}/>
                         <TechnologyCard name={Nodejs}/>
+                    </div>
                     </div>
                 </div>
         </div>
