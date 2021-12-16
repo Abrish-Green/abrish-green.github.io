@@ -14,7 +14,8 @@ const App = () => {
       
             <Toggle />
             <Intro />
-            <About />   
+            <About /> 
+            <Technology />  
             <Contact /> 
        
        </div>

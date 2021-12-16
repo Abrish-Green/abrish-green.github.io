@@ -10,14 +10,14 @@ import Nodejs from '../../img/nodejs.jpg'
 const TechnologyCard = (props) => {
 
     return(
-        <div className="card">
-            <div className="card-browser">
+        <div className="tech-card">
+            <div className="tech-card-browser">
                     <div className="card-browser-circle"></div>
                     <div className="card-browser-circle"></div>
                     <div className="card-browser-circle"></div>
             </div>
-            <div className="card-img">
-                <img src={props.name} alt={props.name} className="card-image"/>
+            <div className="tech-card-img">
+                <img src={props.name} alt={props.name} className="tech-card-image"/>
             </div>
         </div>
     )
@@ -26,9 +26,9 @@ const TechnologyCard = (props) => {
 
 const Technology = ()=>{
     return (
-        <div className="t">
-                <div className="t-title">
-                    <h2>Technologies</h2> 
+        <div className="tech">
+                <div className="tech-title">
+                    <h2>My Best Technologies</h2> 
                     <div className="my-technology">
                         <TechnologyCard name={Express}/>
                         <TechnologyCard name={Reacts}/>
