@@ -35,10 +35,10 @@ body{
 }
 
 .i-title{
-    height:50px;
+    height:40px;
     overflow:hidden;
     position: absolute;
-    top:20em;
+    top:24em;
 }
 
 .i-title-wrapper{
