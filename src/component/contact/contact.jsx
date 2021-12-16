@@ -4,6 +4,9 @@ import Email from '../../img/mail.png'
 import Address from '../../img/address.png'
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const Contact = ()=>{
 
@@ -31,7 +34,7 @@ const Contact = ()=>{
         }
         isSending(true)
         isComplete(false)
-        emailjs.sendForm('service_b84ak9r', 'template_bede3zk', form.current, 'user_lINY3VkSgOq3Dn4Av7SEL')
+        emailjs.sendForm( process.env.SERVICE_CODE, process.env.TEMPLATE_CODE, form.current, process.env.USER_ID)
           .then((result) => {
               console.log(result.text);
              
