@@ -1,5 +1,5 @@
 import './intro.css'
-import Picture from '../../img/output-onlinepngtools.png'
+import Picture from '../../img/portfolio-img.jpg'
 const intro = ()=>{
     return (
         <div className="i">
