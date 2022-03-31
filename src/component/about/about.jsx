@@ -16,8 +16,7 @@ const About = ()=>{
             <div className="a-right">
             <h2 className="a-right-heading">About me</h2>
                 <div className="a-right">
-               <div className="a-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-
+               <div className="a-description"> My name Abrham and am a Software developer. I studied Software Engineering at Addis Ababa Science and Technology University. currently live in Addis Ababa. I have worked on different software and web development projects by freelancing. Am a Full-stack Developer. I work on different JavaScript Frameworks mainly Reactjs, Nodejs, Express and other frameworks which are listed below. But I always excited to learn new Technologies. All my projects are available at my GitHub Account.
                 </div>
 
                 <div className="a-right-curve-wrapper">
